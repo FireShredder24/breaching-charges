@@ -1,3 +1,15 @@
 {
-  "item.breachingcharges.ash": "Ash"
+  "item.breachingcharges.ash": "Ash",
+  "item.breachingcharges.lye": "Lye",
+  "item.breachingcharges.fat": "Fat",
+  "item.breachingcharges.pot": "Pot",
+  "item.breachingcharges.glycerol": "Glycerol",
+  "item.breachingcharges.nitric_acid": "Nitric Acid",
+  "item.breachingcharges.sulfur": "Sulfur",
+  "item.breachingcharges.sulfuric_acid": "Sulfuric Acid",
+  "item.breachingcharges.waveshaper": "Waveshaper",
+  "item.breachingcharges.blasting_cap": "Blasting Cap",
+  "item.breachingcharges.oleum": "Oleum",
+  "item.breachingcharges.catalyst": "Catalyst",
+  "item.breachingcharges.nitroglycerin": "Nitroglycerin"
 }

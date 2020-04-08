@@ -16,4 +16,17 @@ public class RegistryHandler {
     }
     // For ITEMS ONLY
     public static final RegistryObject<Item> ITEM_ASH = ITEMS.register("ash", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_LYE = ITEMS.register("lye", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_FAT = ITEMS.register("fat", ItemBase::new); // TODO make texture
+    public static final RegistryObject<Item> ITEM_POT = ITEMS.register("pot", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_GLYCEROL = ITEMS.register("glycerol", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_NITRIC_ACID = ITEMS.register("nitric_acid", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_SULFUR = ITEMS.register("sulfur", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_SULFURIC_ACID = ITEMS.register("sulfuric_acid", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_WAVESHAPER = ITEMS.register("waveshaper", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_BLASTING_CAP = ITEMS.register("blasting_cap", ItemBase::new); // TODO Make texture
+    public static final RegistryObject<Item> ITEM_OLEUM = ITEMS.register("oleum", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_CATALYST = ITEMS.register("catalyst", ItemBase::new);
+    public static final RegistryObject<Item> ITEM_NITROGLYCERIN = ITEMS.register("nitroglycerin", ItemBase::new);
+
 }

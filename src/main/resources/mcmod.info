@@ -1,0 +1,12 @@
+[{
+  "modid": "breachingcharges",
+  "name": "Breaching Charges",
+  "description": "Lets you craft dirt into diamonds.",
+  "version": "1.0.0.0",
+  "mcversion": "1.10.2",
+  "logoFile": "assets/examplemod/textures/logo.png",
+  "url": "minecraftforge.net/",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["Author"],
+  "credits": "I'd like to thank Blaze_Tortoise and ZigTag."
+}]

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "breachingcharges:oleum"
+    },
+    {
+      "item": "breachingcharges:catalyst"
+    }
+  ],
+  "result": {
+    "item": "breachingcharges:sulfuric_acid"
+  }
+}

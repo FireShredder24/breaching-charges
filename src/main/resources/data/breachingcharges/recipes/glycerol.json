@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "breachingcharges:fat"
+    },
+    {
+      "item": "breachingcharges:lye"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "breachingcharges:glycerol"
+  }
+}

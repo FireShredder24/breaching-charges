@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:magma_block"
+  },
+  "result": "breachingcharges:sulfur",
+  "experience": 3,
+  "cookingtime": 200
+}

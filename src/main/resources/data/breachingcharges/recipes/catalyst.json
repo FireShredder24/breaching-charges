@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "minecraft:gold_nugget"
+    },
+    "c": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "breachingcharges:catalyst"
+  }
+}

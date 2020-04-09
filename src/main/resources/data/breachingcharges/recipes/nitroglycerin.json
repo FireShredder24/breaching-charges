@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "breachingcharges:glycerol"
+    },
+    {
+      "item": "breachingcharges:nitric_acid"
+    },
+    {
+      "item": "breachingcharges:sulfuric_acid"
+    }
+  ],
+  "result": {
+    "item": "breachingcharges:nitroglycerin"
+  }
+}

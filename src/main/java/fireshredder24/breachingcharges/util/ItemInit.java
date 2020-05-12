@@ -1,18 +1,21 @@
 package fireshredder24.breachingcharges.util;
 
 import fireshredder24.breachingcharges.Reference;
+import fireshredder24.breachingcharges.blocks.BlockItemBase;
 import fireshredder24.breachingcharges.items.ItemBase;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class RegistryHandler {
+public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<Item>(ForgeRegistries.ITEMS, Reference.MOD_ID);
-    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -32,6 +35,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ITEM_CATALYST = ITEMS.register("catalyst", ItemBase::new);
     public static final RegistryObject<Item> ITEM_NITROGLYCERIN = ITEMS.register("nitroglycerin", ItemBase::new);
 
-    // For BLOCKS ONLY
-    //public static final RegistryObject<Block> BLOCK_MIXER = BLOCKS.register("mixer", () -> new Block(Block.Properties.create(Material.MISCELLANEOUS)));
+    // Block Items
+    public static final RegistryObject<Item> BLOCK_ITEM_MIXER = ITEMS.register("mixer", () -> new BlockItemBase(BlockInit.BLOCK_MIXER.get()));
 }

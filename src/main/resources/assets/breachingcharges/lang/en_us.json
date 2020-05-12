@@ -11,5 +11,7 @@
   "item.breachingcharges.blasting_cap": "Blasting Cap",
   "item.breachingcharges.oleum": "Oleum",
   "item.breachingcharges.catalyst": "Catalyst",
-  "item.breachingcharges.nitroglycerin": "Nitroglycerin"
+  "item.breachingcharges.nitroglycerin": "Nitroglycerin",
+
+  "block.breachingcharges.mixer": "Fluid Mixer"
 }
